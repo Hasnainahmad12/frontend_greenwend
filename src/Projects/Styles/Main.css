@@ -1,0 +1,420 @@
+.main__image{
+    height: 100vh;
+    width: 100%;
+}
+
+.slider__image {
+    height: 100vh;
+    width: 100%;
+    /* background: linear-gradient(180deg, #FFFFFF 0%, rgba(255, 255, 255, 0) 100%); */
+}
+
+.main__heading{
+    width: 985px;
+    font-size: 50px;
+    position: absolute;
+    top: 300px;
+    left: 181px;
+    /* background: pink; */
+    /* line-height: 100px; */
+    font-weight: 800;
+    font-family: 'poppins';
+    text-align: center;
+
+}
+
+.main__title{
+    position: absolute;
+    width: 946px;
+    height: 41px;
+    left: 200px;
+    top: 406px;
+    /* background: brown; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 35px;
+    /* or 100% */
+    text-align: center;
+    color: #717171;}
+
+
+@media (max-width:800px) {
+    .main__image{
+        height: 100vh;
+        width: 100%;
+        /* background-image: url("../Images/Rectangle.png"); */
+        /* background-position: cover; */
+        /* background-size: cover; */
+    }
+    
+ 
+.main__heading{
+    width: 280px;
+    font-size: 30px;
+    position: absolute;
+    top: 390px;
+    left: 25px;
+    /* background: pink; */
+    /* line-height: 100px; */
+    font-weight: 800;
+    font-family: 'poppins';
+    text-align: center;
+
+}
+ 
+.main__title{
+    position: absolute;
+    height: 135px;
+    left: 35px;
+    top: 463px;
+    width: 250px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    /* background: pink; */
+    /* line-height: 30px; */
+    color: #717171;}
+
+      
+}
+
+/* Home Services */
+.home__container {
+    height: 502px;
+    width: 100%;
+   background-image: linear-gradient(to bottom, rgba(84, 98, 186, 0.7), rgba(0, 0, 0, 0.8)),
+    url('../Images/Rectangle1.png');
+}
+
+.main__title-div {
+    padding-top: 40px;
+    padding-left: 35px;
+}
+
+.title__line {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 65px;
+    
+    color: #FFFFFF;
+    text-transform: capitalize;
+}
+
+.avator{
+    /* position: absolute; */
+    width: 60px;
+    height: 55px;
+    /* left: 110px;
+    top: 276px; */
+    margin-top: 20px;
+    margin-left: 60px;
+    background: #FFFFFF;
+    border-radius: 50%;
+    }
+
+.image{
+        margin-top: 13px;
+        margin-left: 15px;
+    }
+
+.paragh {
+    /* position: absolute; */
+    width: 490px;
+    height: 45px;
+    /* left: 180px; */
+    /* top: 284px; */
+    /* background: pink; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    margin-top: 25px;
+    margin-left: 10px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    }
+
+
+@media (max-width:800px) {
+    .home__container {
+        height: 100vh;
+        width: 100%;
+        background: #CBD2FF;
+    
+    }
+    
+    .main__title-div {
+        padding-top: 30px;
+        padding-left: 25px;
+    }
+ 
+    
+    .title__line {
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 25px;
+        /* line-height: 75px; */
+
+        text-transform: capitalize;
+
+        color: #3F3F3F;
+
+}
+
+
+    .avator{
+        /* position: absolute; */
+        width: 50px;
+        height: 50px;
+        /* left: 110px;
+        top: 276px; */
+        margin-top: 12px;
+        margin-left: 16px;
+        background: #FFFFFF;
+        border-radius: 50px;
+        }
+
+    .image{
+            height: 22px;
+            margin-top: 13px;
+            margin-left: 15px;
+        }
+
+    .paragh {
+        width: 265px;
+        height: 45px;
+        font-family: 'Poppins';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        line-height: 45px;
+        margin-top: 15px;
+        margin-left: 10px;
+        text-transform: capitalize;
+        /* background: pink; */
+        color: #070A1D;
+        }
+}
+
+/* About Us Services */
+
+.about__div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 80px;
+    /* background: #5EA410; */
+}
+
+.about__image{
+    width: 626px;
+    height: 567px;
+    margin-top: 90px;
+    /* margin-left: 70px; */
+}
+
+.mession__div{
+    width: 382px;
+    height: 381px;
+    background: #FEDC3C;
+    /* position: absolute;
+    top: 1620px;
+    left: 180px; */
+    padding: 10px;
+    margin-top: -200px;
+    margin-left: 100px;
+    position: absolute;
+    
+}
+
+.paraghraph {
+    /* position: absolute; */
+    width: 310px;
+    height: 180px;
+    /* left: 349px;
+    top: 1248px; */
+    margin-left: 20px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+
+    /* or 180% */
+
+    color: #070A1D;
+}
+
+.about__us{
+    height: 45px;
+    width: 136px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 45px;
+    color: #000000;
+    margin-top: 90px;
+}
+
+.heading{
+    height: 141px;
+    width: 504px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 45px;
+    line-height: 68px;
+    /* or 136% */
+    text-transform: capitalize;
+
+    color: #3F3F3F;
+}
+
+.about__paragh {
+    height: 225px;
+    width: 533px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    /* line-height: 45px; */
+
+    /* or 180% */
+    /* background: blue; */
+    color: #707070;
+}
+
+.about__more {
+    height: 45px;
+    width: 212px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    /* line-height: 45px; */
+
+    /* identical to box height, or 180% */
+    text-transform: uppercase;
+
+    color: #5EA410;
+}
+
+/* Services */
+.Services {
+    /* position: absolute;
+    width: 320px;
+    height: 75px;
+    left: 704px;
+    top: 2123px; */
+
+    /* width: 320px; */
+    height: 75px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    /* background: pink; */
+    text-align: center;
+    text-transform: capitalize;
+    margin-top: 280px;
+    color: #3F3F3F;
+}
+
+.services__para {
+    height: 90px;
+    /* width: 1193px; */
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 45px;
+    /* margin-top: 20px; */
+    text-align: center;
+    padding: 20px 152px;
+    color: #707070;
+
+}
+
+/* Achivements Page */
+.achive__image {
+    width: 100%;
+    height: 480px;
+    background-image: linear-gradient(to left, rgba(84, 98, 186, 0.7), rgba(82, 78, 183, 0.6)),
+    url('../Images/Rectangle4.png');
+}
+
+.our__head {
+    width: 478px;
+    height: 75px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.our__para {
+    width: 217px;
+    height: 75px;
+    left: 156px;
+    top: 2693px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 75px;
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+.our__title {
+    width: 277px;
+    height: 45px;
+ 
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 45px;
+ 
+    text-align: center;
+    text-transform: capitalize;
+
+    color: #FFFFFF;
+}
+
+/* Our Projects */
+.our__projects {
+    /* position: absolute; */
+    width: 311px;
+    height: 75px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 75px;
+
+    text-align: center;
+    text-transform: capitalize;
+    /* background: pink; */
+    color: #3F3F3F;
+    padding-top: 30px;
+    margin: auto;
+}

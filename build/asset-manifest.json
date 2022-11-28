@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.f55013e5.css",
+    "main.js": "/static/js/main.2281b05e.js",
+    "static/media/Rectangle3.png": "/static/media/Rectangle3.800242819ba3578197b6.png",
+    "static/media/Rectangle1.png": "/static/media/Rectangle1.81cf0d3f3408d0a8a69f.png",
+    "static/media/Rectangle2.png": "/static/media/Rectangle2.d4f875582ebfe90e36ab.png",
+    "static/media/Rectangle.png": "/static/media/Rectangle.22cb97424e392a0fdc87.png",
+    "static/media/about.png": "/static/media/about.35c8cacb7295ee5361ea.png",
+    "index.html": "/index.html",
+    "main.f55013e5.css.map": "/static/css/main.f55013e5.css.map",
+    "main.2281b05e.js.map": "/static/js/main.2281b05e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f55013e5.css",
+    "static/js/main.2281b05e.js"
+  ]
+}

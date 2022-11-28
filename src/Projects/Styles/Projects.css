@@ -1,0 +1,30 @@
+.project__div {
+    height: 588.89px;
+    width: 400px; 
+    background: pink;
+    
+}
+
+.project__image {
+    height: 488.89px;
+    width: 400px;
+}
+
+.projects__title {    
+    /* position: absolute; */
+    width: 246px;
+    height: 60px;
+    /* left: 55px;
+    top: 3631px; */
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.projects__learn {
+
+}
