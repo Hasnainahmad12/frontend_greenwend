@@ -211,7 +211,6 @@ const Main = () => {
                 </div>
             </div>
 
-
             <br />
       </div>
     )
